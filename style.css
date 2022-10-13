@@ -21,3 +21,17 @@ tr:nth-child(even){
 table{
     border-collapse: collapse;
 }
+
+/*Task 2*/
+.box{
+    display: flex;
+    justify-content: center;
+    background-color:red;
+    height: 300px;
+    width: 300px;
+    border-radius: 2rem;
+}
+.box:hover{
+    box-shadow: solid lightgrey;
+    
+}
