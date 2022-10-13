@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+.heading{
+    border-bottom: 1px solid #c4dcf3;
+}
+th{
+    text-align: left;
+    color: white;
+    background-color: #427fef;
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+table{
+    border-collapse: collapse;
+}
