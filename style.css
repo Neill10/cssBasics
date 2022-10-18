@@ -24,14 +24,14 @@ table{
 
 /*Task 2*/
 .box{
-    display: flex;
-    justify-content: center;
     background-color:red;
     height: 300px;
     width: 300px;
     border-radius: 2rem;
 }
+/* When hovered over, the box will turn blue and will include a box shadow of dark blue color*/
 .box:hover{
-    box-shadow: solid lightgrey;
-    
+    /*Had to search up how to syntax a box-shadow*/
+    box-shadow: 10px 10px darkblue;
+    background-color: blue;
 }
